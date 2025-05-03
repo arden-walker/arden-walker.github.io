@@ -22,6 +22,16 @@ h1 {
   font-size: 3em;
   text-decoration: underline;
 }
+p {
+  text-align: left;
+  font-size: 1.3em;
+}
+
+footer {
+  text-align: center;
+  text-wrap: balance;
+  font-size: 2em;
+}
 
 .one {
   color: purple;
@@ -50,17 +60,6 @@ h1 {
 }
 .ono {
   color: darkgoldenrod;
-  text-align: center;
-  text-wrap: balance;
-  font-size: 2em;
-}
-
-p {
-  text-align: left;
-  font-size: 1.3em;
-}
-
-footer {
   text-align: center;
   text-wrap: balance;
   font-size: 2em;
