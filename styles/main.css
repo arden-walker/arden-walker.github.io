@@ -4,63 +4,117 @@
   background-position: center;
   background-color: rgb(198, 196, 196);
   font-style: normal;
+  padding: 1em;
 }
-h3 {
+
+/* Base styles for mobile portrait (default: 320px) */
+h1,
+h2,
+h3,
+p,
+footer,
+.one,
+.two,
+.plain,
+.title,
+.ono {
   text-align: center;
   text-wrap: balance;
-  color: black;
-  font-size: 2em;
 }
-h2 {
-  text-align: center;
-  text-wrap: balance;
-  font-size: 3em;
-}
+
 h1 {
-  text-align: center;
-  text-wrap: balance;
-  font-size: 3em;
+  font-size: 2em;
   text-decoration: underline;
 }
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: black;
+}
+
 p {
   text-align: left;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 footer {
-  text-align: center;
-  text-wrap: balance;
-  font-size: 2em;
+  font-size: 1.3em;
+}
+
+.one,
+.two,
+.plain,
+.title,
+.ono {
+  font-size: 1.3em;
 }
 
 .one {
   color: purple;
-  text-align: center;
-  text-wrap: balance;
-  font-size: 2em;
 }
 .two {
   color: pink;
-  text-align: center;
-  text-wrap: balance;
-  font-size: 2em;
 }
-
 .plain {
   color: red;
-  text-align: center;
-  text-wrap: balance;
-  font-size: 2em;
 }
 .title {
   color: darkblue;
-  text-align: center;
-  text-wrap: balance;
-  font-size: 2em;
 }
 .ono {
   color: darkgoldenrod;
-  text-align: center;
-  text-wrap: balance;
-  font-size: 2em;
+}
+
+/* Tablet portrait (min-width: 768px) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 2.3em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1.2em;
+  }
+  footer {
+    font-size: 1.5em;
+  }
+  .one,
+  .two,
+  .plain,
+  .title,
+  .ono {
+    font-size: 1.5em;
+  }
+}
+
+/* Desktop/laptop (min-width: 1200px) */
+@media (min-width: 1200px) {
+  h1,
+  h2 {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.3em;
+  }
+  footer {
+    font-size: 2em;
+  }
+  .one,
+  .two,
+  .plain,
+  .title,
+  .ono {
+    font-size: 2em;
+  }
 }
